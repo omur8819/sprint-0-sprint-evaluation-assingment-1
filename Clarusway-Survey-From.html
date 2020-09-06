@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="Clarusway-Survey-From.css">
+</head>
+<body id="all-box">
+    <form action="http://www.clarusway.com/action_page.php" method="GET" id="form-box"></form>
+        <h1>Clasrusway Survey Form</h1>
+        <h4>Thank you for taking the time to help us improve the platform</h4>
+        <div>
+            <label>Name<br><br><input type="text" id="name" placeholder="Enter your name"></label><br>
+        </div>
+        <div>
+            <label>Surname<br><br><input type="text" id="surname" placeholder="Enter your Surname"></label><br>
+        </div>
+        <div>
+            <label>Email<br><br><input type="email" id="email" placeholder="user@clarusway.com"></label><br>
+        </div>
+        <h4>Which option best describes your current role?</h4>
+        <div>
+            <label>
+                <select name="current-role" id="" placeholder="Select current role">
+                    <option value="Select current role">Select current role</option>
+                </select>
+            </label>
+        </div>
+        <h4>Would you recommend Clarusway to a friend?</h4>
+        <div>
+            <label><input type="radio" value="Definitely, Yes" checked> Definitely, Yes</label><br>
+            <label><input type="radio" value="Maybe"> Maybe</label><br>
+            <label><input type="radio" value="Not sure"> Not sure</label><br>
+            <label><input type="radio" value="Definitely, No"> Definitely, No</label><br>
+        </div>
+        <h4>What is your favourite feature of Clarusway?</h4>
+        <div>
+            <label>
+                <select name="favourite-feature" id="" placeholder="Select current role">
+                    <option value="Select an option">Select an option</option>
+                </select>
+            </label>
+        </div>
+        <h4>What would like to see improved? (Check all that apply)</h4>
+        <div>
+            <label><input type="checkbox" value="Front-end Projects"> Front-end Projects</label><br>
+            <label><input type="checkbox" value="Back-end Projects"> Back-end Projects</label><br>
+            <label><input type="checkbox" value="Data Science"> Data Science</label><br>
+            <label><input type="checkbox" value="Additional Courses"> Additional Courses</label><br>
+        </div>
+        <h4>Any comments or suggessions?</h4>
+        <div>
+            <label><textarea name="message" id="message" cols="25" rows="2" placeholder="Enter your comment here...Thanks for your"></textarea></label>
+            <label><input type="submit" value="Submit"></label>
+        </div>
+    </form>
+    
+</body>
+</html>
